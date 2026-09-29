@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f7f2" />
+    <meta name="description" content="Zentari Limited builds software, Android and iOS apps, and products including Zent, a peer-to-peer delivery network, a chat and call SDK, and TextPool virtual numbers." />
+    <title>Zentari Limited — Software and products that move business forward</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Zentari Limited home">
+        <span class="brand-mark">z</span>
+        <span class="brand-name">zentari</span>
+        <span class="brand-ltd">LIMITED</span>
+      </a>
+      <nav class="header-nav" aria-label="Main navigation">
+        <a class="header-link" href="#products">Our products <span aria-hidden="true">↘</span></a>
+        <a class="header-link" href="#contact">Contact us <span aria-hidden="true">↘</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow dark">SOFTWARE · PRODUCTS · CONNECTION</p>
+          <h1>We build what<br />moves business<br />forward.</h1>
+          <p class="hero-description">Zentari Limited builds thoughtful software and mobile apps for companies, alongside products that make everyday life work better.</p>
+          <a class="button button-dark" href="#products">Meet our products <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="orbit" aria-label="Zentari products: mobile apps, Zent, TextPool, and a chat and call SDK">
+          <div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div>
+          <div class="orbit-center">z</div>
+          <div class="orbit-node node-apps"><span class="node-icon">▣</span><span>APPS</span></div>
+          <div class="orbit-node node-zent"><span class="node-icon"><img class="node-brand-zent" src="assets/zent-logo.png" alt="" /></span><span>ZENT</span></div>
+          <div class="orbit-node node-textpool"><span class="node-icon"><img class="node-brand-textpool" src="assets/textpool-logo.png" alt="" /></span><span>TEXTPOOL</span></div>
+          <div class="orbit-node node-sdk"><span class="node-icon">◉</span><span>SDK</span></div>
+          <span class="orbit-caption">TECH THAT CONNECTS</span>
+        </div>
+      </section>
+
+      <section class="statement">
+        <div class="wrap statement-inner">
+          <div><p class="eyebrow light">WHAT WE DO</p><h2>Good ideas deserve<br />great technology.</h2></div>
+          <p>We partner with companies to design and build software around the way they work. From web platforms to polished Android and iOS apps, we turn complex needs into useful, dependable experiences.</p>
+        </div>
+      </section>
+
+      <section class="products wrap" id="products">
+        <p class="eyebrow dark">BUILT BY ZENTARI</p>
+        <h2 class="section-title">A growing family of<br />connected products.</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="card-top"><span class="card-number">01</span><span class="product-logo product-logo-zent"><img src="assets/zent-logo.png" alt="Zent logo" /></span></div>
+            <h3>Zent</h3><h4>Delivery that moves with you</h4>
+            <p>Zent is a peer-to-peer delivery network connecting people who need to send a package with travelers already heading in the right direction. Zentari Limited is the parent company that owns Zent.</p>
+            <span class="tag tag-green">A Zentari company</span>
+          </article>
+          <article class="product-card">
+            <div class="card-top"><span class="card-number">02</span><span class="card-icon icon-lilac" aria-hidden="true">◉</span></div>
+            <h3>Chat &amp; Call SDK</h3><h4>Communication, built in</h4>
+            <p>A chat and calling SDK for teams building connected experiences, available for both Android and iOS.</p>
+            <span class="tag tag-lilac">Android + iOS</span>
+          </article>
+          <article class="product-card">
+            <div class="card-top"><span class="card-number">03</span><span class="product-logo product-logo-textpool"><img src="assets/textpool-logo.png" alt="TextPool logo" /></span></div>
+            <h3>TextPool</h3><h4>Numbers for your online life</h4>
+            <p>TextPool sells virtual numbers users can use to receive OTPs and other messages for their online accounts and services.</p>
+            <span class="tag tag-peach">Virtual numbers</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing wrap">
+        <div><p class="eyebrow dark">LET’S BUILD SOMETHING</p><h2>Have a big idea?</h2><p>Let’s make it real together.</p></div>
+        <a class="button button-dark" href="#top">Explore Zentari <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="contact-section wrap" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow dark">WE’D LIKE TO HEAR FROM YOU</p>
+          <h2>Tell us what<br />you’re thinking.</h2>
+          <p>Share feedback, ask about our products, or tell us what you’re looking to build. Your message goes straight to the Zentari team.</p>
+          <div class="contact-note"><span aria-hidden="true">✳</span><span>We read every message and will be in touch.</span></div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <label for="contact-name">Your name <span>*</span><input id="contact-name" name="name" autocomplete="name" maxlength="100" required placeholder="Jane Smith" /></label>
+            <label for="contact-email">Email address <span>*</span><input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required placeholder="jane@company.com" /></label>
+          </div>
+          <label for="contact-company">Company <span class="optional">OPTIONAL</span><input id="contact-company" name="company" autocomplete="organization" maxlength="120" placeholder="Your organization" /></label>
+          <label for="contact-topic">What would you like to talk about?<select id="contact-topic" name="topic" required>
+            <option value="" disabled selected>Select a topic</option>
+            <option>General feedback</option><option>Software development</option><option>Chat &amp; Call SDK</option><option>Zent delivery network</option><option>TextPool virtual numbers</option><option>Partnership</option><option>Something else</option>
+          </select></label>
+          <label for="contact-message">Your message <span>*</span><textarea id="contact-message" name="message" rows="5" maxlength="3000" required placeholder="Tell us a little about what’s on your mind..."></textarea></label>
+          <label class="website-field" aria-hidden="true">Leave this field empty<input name="website" tabindex="-1" autocomplete="off" /></label>
+          <div class="form-bottom"><p class="privacy-note">By sending this message, you agree that Zentari may use your details to respond to your enquiry.</p><button class="button button-dark submit-button" type="submit"><span class="submit-label">Send message</span><span aria-hidden="true">↗</span></button></div>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <a class="brand" href="#top" aria-label="Zentari Limited home"><span class="brand-mark">z</span><span class="brand-name">zentari</span><span class="brand-ltd">LIMITED</span></a>
+      <span>© <span id="year">2026</span> Zentari Limited</span>
+    </footer>
+  </body>
+</html>
